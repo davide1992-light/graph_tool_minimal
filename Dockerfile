@@ -4,7 +4,7 @@ ARG workdir=/app
 
 #NJOBS is the number of cores that make will employ during the compilation of graph-tool 
 #WARNING graph-tool compilation needs a lot of memory, so keep NJOBS low
-ARG NJOBS=2
+ARG NJOBS=1
 
 WORKDIR $workdir 
 #list of python3 libraries needed to make graph-tool work
